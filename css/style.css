@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,300,400,500,600,700,800,900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgb(135, 124, 235);
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px;
+    color: #fff;
+    font-size: 40px;
+}
+
+.separator {
+    margin: 20px 5%;
+    color: #fff;
+    font-size: 20px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.box {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 5%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5);
+}
+
+.box:last-child {
+    margin-bottom: 70px;
+}
+
+.box h3 {
+    font-size: 21px;
+}
+
+.anotation {
+    color: #999;
+}
+
+.billet-contenu {
+    margin: 10px 0 20px 0;
+}
+
+.box a {
+    text-decoration: none;
+    border: 2px solid rgb(135, 124, 235);
+    border-radius: 100px;
+    padding: 3px 7px;
+    color: rgb(135, 124, 235);
+    cursor: pointer;
+}
+
+.box a:hover {
+    color: #fff;
+    background: rgb(135, 124, 235);
+}
+
+/* COMENTS */
+
+.anotation {
+    color: #999;
+}
+
+.coment-header {
+    margin-bottom: 5px;
+}
+
+/* ADD COMENT */
+
+.form-style {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
+}
+
+#coment-container input {
+    height: 28px;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+
+#coment-container textarea {
+    margin-top: 10px;
+    width: 100%;
+}
+
+#coment-container button {
+    text-decoration: none;
+    border: 2px solid rgb(135, 124, 235);
+    border-radius: 100px;
+    padding: 3px 7px;
+    color: rgb(135, 124, 235);
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 15px;
+    background: transparent;
+}
+
+#coment-container button:hover {
+    color: #fff;
+    background: rgb(135, 124, 235);
+}
+
+/* Errors */
+
+.error-container h2 {
+    color: rgb(135, 124, 235);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.error-container ul {
+    display: flex;
+    justify-content: center;
+}
+
+.error-container li {
+    list-style: none;
+    margin: 10px 7px;
+}
